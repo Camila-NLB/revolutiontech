@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, p, iframe {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif
+    font-weight: 400;
+   
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #040D12;
+    background-color: #040D12;
+}
+
+/* Estilo do cabeçalho */
+header {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 800;
+    background-color: #5C8374;
+    color: #040D12;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+/* Estilo da seção de introdução */
+.introduction {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 400;
+    background-color: #93B1A6;
+    color: #040D12;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Estilo das seções de conteúdo */
+section {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    background-color: #93B1A6;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+   
+}
+
+h2 {
+    
+    color: #040D12;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+   
+}
+
+/* Estilo do vídeo */
+#video {
+   
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+/* Estilo do rodapé */
+footer {
+    
+    background-color: #183D3D;
+    color: #040D12;
+    text-align: center;
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+        
+}
+
+/* Estilizando links */
+a {
+    color: #040D12;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+   
+
+a:hover {
+    color: #040D12;
+}
